@@ -1,0 +1,60 @@
+
+body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /*background-color: grey;*/
+  font-family: 'Oswald', sans-serif;
+}
+
+header{
+  height: 350px;
+  width: 100%;
+  background-color: white;
+  background-image: url('../img/newyork.png');
+  background-position: bottom;
+  background-repeat: repeat-x;
+}
+
+
+nav{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  width: 100%;
+}
+
+nav a{
+  font-size: 2em;
+  padding-left: 50px;
+  padding-right: 50px;
+  /*padding-top: 10px;*/
+  padding-bottom: 5px;
+  background-color: grey;
+  margin-top: 278px;
+  border-radius: 5px;
+  color: white;
+}
+
+nav a:hover{
+  color: white;
+}
+
+.mes-travaux{
+  text-align: center;
+  text-decoration: underline overline;
+}
+
+.Abdifatah-contact{
+  padding-top: 10%;
+  padding-left: 5%;
+}
+
+.Xavier-contact{
+  padding-top: 10%;
+}
+
+
+.copy{
+  text-align: center;
+}
