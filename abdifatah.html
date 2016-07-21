@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <!-- Required meta tags always come first -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-
+  <title>portfolio</title>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
   <link rel="stylesheet" href="css/contact.css">
@@ -13,9 +13,11 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
+  <!-- ============header========== -->
   <header class="header-image text-center acceuil">
-
-    <nav class="navbar navbar-light">
+    <!-- home button -->
+    <p class="home hidden-md-up"><a href="index.html"><img src="img/home.png" alt="logo home"></a></p>
+    <nav class="navbar navbar-light hidden-md-down ">
       <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
         &#9776;
       </button>
@@ -40,24 +42,26 @@
       </div>
     </nav>
   </header>
+  <!--============ /header ======-->
 
+  <!-- ==============container============ -->
   <div class="container">
-
     <!-- first section -->
     <section class="row p-b-3">
+      <h2 class="p-t-3">Apprenti Développeur web junior</h2>
       <!-- leftside image with text-->
       <aside class="leftside col-md-6 p-t-3">
-        <h2>Apprenti Développeur web junior</h2>
-        <img  class="col-md-5 img-fluid img-circle"src="img/fatah.png" alt="abdifatah's photo">
-          <p class="pull-xs-left font-weight-bold col-md-6">
-            Bonjour moi c'est Abdifatah
-            Je suis actuellement en formation de developpeur web
-            chez SIMPLON Robaix à l'Adep Roubaix
-          </p>
+        <!-- <h2>Apprenti Développeur web junior</h2> -->
+        <img  class="col-md-5 img-fluid img-circle" src="img/fatah.png" alt="abdifatah's photo">
+        <p class="pull-xs-left font-weight-bold col-md-6">
+          Bonjour moi c'est Abdifatah
+          Je suis actuellement en formation de developpeur web
+          chez SIMPLON Robaix à l'Adep Roubaix
+        </p>
       </aside>
-
+      <!-- ==========right side ===========-->
       <aside class="rightside col-md-6 p-t-3">
-        <h3>Ce que j'ai appris ou compris en 1 mois</h1>
+        <h3>Ce que j'ai appris ou compris en 1 mois</h3>
           <ul class="list-group">
             <li class="list-group-item font-weight-bold">
               <span class="label label-default label-pill pull-xs-right">50%</span>
@@ -82,13 +86,14 @@
 
       <!-- second section starts here -->
       <section class="row p-b-3 p-t-3">
-        <a class="col-sm-4" href="#">
+        <h2 class="mes-travaux p-b-3">Réalisations</h2>
+        <a class="col-sm-4" href="https://abdifatah1.github.io/GIT/">
           <img class="img-fluid" src="img/git.png" alt="git screenshot">
         </a>
-        <a class="col-sm-4" href="#">
+        <a class="col-sm-4" href="https://abdifatah1.github.io/html/">
           <img class="img-fluid" src="img/html.png" alt="git screenshot">
         </a>
-        <a class="col-sm-4" href="#">
+        <a class="col-sm-4" href="https://abdifatah1.github.io/VIM/">
           <img class="img-fluid" src="img/vim.png" alt="git screenshot">
         </a>
       </section>
@@ -96,27 +101,28 @@
 
       <!-- third section -->
       <section class="row p-b-3 p-t-3">
-        <a class="col-sm-4" href="#">
+        <a class="col-sm-4" href="https://abdifatah1.github.io/css3/">
           <img class="img-fluid" src="img/css.png" alt="git screenshot">
         </a>
-        <a class="col-sm-4" href="#">
+        <a class="col-sm-4" href="https://abdifatah1.github.io/emmet/">
           <img class="img-fluid" src="img/emmet.png" alt="git screenshot">
         </a>
-        <a class="col-sm-4" href="#">
+        <a class="col-sm-4" href="https://abdifatah1.github.io/Terminal_commands/">
           <img class="img-fluid" src="img/terminal.png" alt="git screenshot">
         </a>
-      </section>
-      <!-- /third section -->
-    </div>
+      </section><!-- /third section -->
+    </div><!-- /container -->
+
     <!-- footer -->
     <footer>
+      <p class="home"><a href="index.html"><img src="img/home.png" alt="logo home"></a></p>
+      <p class="copy">&copy; 2016 Abdifatah&Xavier</p>
+    </footer>
+    <!-- /footer -->
 
-      <p class="copy">&copy; 2016 Abdifatah&Xavier<p>
 
-      </footer>
-      <!-- /footer -->
-      <!-- jQuery first, then Bootstrap JS. -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
-    </body>
-    </html>
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+  </body>
+  </html>
